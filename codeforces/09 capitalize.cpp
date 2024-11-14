@@ -1,3 +1,5 @@
+// link :
+// https://codeforces.com/problemset/problem/281/A
 #include <iostream>
 #include <string>
 using namespace std;

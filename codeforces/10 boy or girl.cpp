@@ -1,3 +1,5 @@
+// link :
+// https://codeforces.com/problemset/problem/236/A
 #include <algorithm>
 #include <iostream>
 #include <vector>
