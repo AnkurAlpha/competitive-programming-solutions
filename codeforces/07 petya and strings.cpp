@@ -1,3 +1,5 @@
+// link :
+// https://codeforces.com/problemset/problem/112/A
 #include <cwctype>
 #include <iostream>
 #include <string>
