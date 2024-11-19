@@ -1,3 +1,5 @@
+// link :
+// https://codeforces.com/problemset/problem/546/A
 #include <iostream>
 using namespace std;
 int main() {
