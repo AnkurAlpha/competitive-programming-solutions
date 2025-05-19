@@ -1,8 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
-int calculatingFunction(int n ) {
+long calculateFunction(long n ) {
+    if ( n%2 != 0 ) n = abs(n) * -1 ;
+    else n = abs(n) ;
+    return n ;
+}
+long calcFunction(long n) {
+    if ( n == -1 ) return -1 ;
+    return calculateFunction(n) + calcFunction(calculateFunction(abs(n)-1)) ;
 }
 int main() {
-    int x ; cin >> x ;
-
+    long x ; cin >> x ;
+    cout << endl << calcFunction(x) ;
 }
+// Problem : time limit exceeding
